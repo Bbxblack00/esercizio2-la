@@ -1,3 +1,5 @@
-<p>
-    sono un footer
-</p>
+<footer>
+    <p>
+        sono un footer
+    </p>
+</footer>

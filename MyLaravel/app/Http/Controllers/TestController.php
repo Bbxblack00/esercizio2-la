@@ -6,6 +6,12 @@ use Illuminate\Http\Request;
 
 class TestController extends Controller
 {
+    public function home() {
+        $name = 'Benito Cassa';
+
+        return view('pages.home', compact('name'));
+    }
+
     public function element($index) {
         $data = [
             [

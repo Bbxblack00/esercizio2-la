@@ -1,3 +1,6 @@
-<p>
-    sono l'header
-</p>
+
+<header>
+    <p>
+        sono l'header
+    </p>
+</header>
