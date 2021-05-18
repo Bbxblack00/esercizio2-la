@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', )
+
+Route::get('/elem/{index}', 'TestController@element') 
+    -> name('elem');
